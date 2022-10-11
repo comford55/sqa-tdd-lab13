@@ -126,5 +126,22 @@ class TestFizzBuzz {
         String actual = fizzBuzz.fizzBuzz(input);
         assertEquals(expected, actual);
     }
+	@Test
+    void fizzBuzztest15() {
+        FizzBuzz fizzBuzz = new FizzBuzz();
+        int input = 60;
+        String expected = "FizzBuzz";
+        String actual = fizzBuzz.fizzBuzz(input);
+        assertEquals(expected, actual);
+    }
+	@Test
+    void fizzBuzztest16() {
+        FizzBuzz fizzBuzz = new FizzBuzz();
+        int input = 90;
+        String expected = "FizzBuzz";
+        String actual = fizzBuzz.fizzBuzz(input);
+        assertEquals(expected, actual);
+    }
+	
 }
 
